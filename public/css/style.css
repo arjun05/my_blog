@@ -1,0 +1,158 @@
+html { 
+    height: 100%;
+}
+
+body {    
+    background: #F7F7F7;
+    color: #000;}
+
+p { 
+    padding: 0 0 20px 0;
+    line-height: 1.5em;
+    font-size: 107%;
+}
+
+p a:hover{ 
+    text-decoration: none;
+}
+
+.left { 
+    float: left;
+    width: auto;
+    margin-right: 10px;
+}
+
+.right { 
+    float: right; 
+    width: auto;
+    margin-left: 10px;
+}
+
+.center { 
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#main, #header, #logo, #menubar, #site_content{
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#main {     
+    background-color: #f0f0f0;
+}
+
+#header {
+     width: 952px;
+    height: 145px;
+}
+
+#logo { 
+    width: 950px;
+    float: left;
+    height: 100px;
+    background: transparent;
+    padding: 0 0 0px 10px;
+}
+
+#logo h1 { 
+    font: normal 350% 'sans-serif', arial;
+    padding: 5px 0 0 17px;
+    color: #000;
+    float: left;
+}
+
+#logo h1 a { 
+    color: #000;
+    text-decoration: none;
+}
+
+#menubar { 
+    height: 46px;
+    width: 700px;
+    margin: 0px auto -1px auto;
+    float: right;
+    padding: 0px 0 0 0;
+} 
+
+ul#menu {
+    float: right;
+}
+
+ul#menu li { 
+    float: left;
+    padding: 0 0 0px 0px;
+    list-style: none;
+    margin: 2px 0 0 0;
+    background: transparent;
+}
+
+ul#menu li a { 
+    font: normal 100% 'sans-serif', arial;
+    text-decoration: none;
+    color: #000;
+    display: block; 
+    float: left; 
+    height: 20px;
+    padding: 14px 23px 15px 23px;
+    text-align: center;
+} 
+
+ul#menu li.current a { 
+    height: 44px;
+    padding: 14px 22px 15px 22px;
+    font-weight: 600;
+}
+
+ul#menu li.current a { 
+    background: #fff;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    color: #000E23;
+}
+
+ul#menu li a:hover { 
+    color: #000E23;
+}
+
+#site_content { 
+    width: 950px;
+    overflow: hidden;
+    margin: 0 auto 10px auto;
+    padding: 0;
+    background: #fff;
+    border: 1px solid #E7E7E7;
+} 
+
+#content { 
+    text-align: left; 
+    padding: 25px;    
+}
+
+#content ul { 
+    margin: 2px 0 22px 0px;
+}
+
+#content h1 a { 
+    color: #1f1f3e !important;
+    font-weight: 600;
+}
+
+#content h2 { 
+    color: #1f1f3e !important;
+    font-weight: 600;
+}
+
+#content ul li {
+    list-style-type: none;
+    margin: 0 0 6px 0; 
+    padding: 0 0 4px 25px;
+    line-height: 1.5em;
+}
+
+.form_set{
+    width: 50%;
+}
+
+ 
